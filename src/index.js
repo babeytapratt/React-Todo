@@ -88,7 +88,7 @@ class Apps extends React.Component {
                     <h1>Todo List</h1>
                     <TodoForm handleAddTodo={this.handleAddTodo} />
                 </div>
-                <TodoList handleClearTodo={this.clearTodos} handleToggleTodo
+                <TodoList handleClearTodos={this.clearTodos} handleToggleTodo
                 = {this.handleToggleTodo} todos={this.state.todos} />
             </div>
         )
